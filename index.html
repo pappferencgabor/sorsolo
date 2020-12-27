@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity szó generátor</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<script src="js.js"></script>
+    <script src="cselekves.js"></script>-->
+</head>
+
+<body>
+    <h1>Random feladvány sorsoló</h1>
+
+    <form name="Szo">
+        <script src="js.js"></script>
+        <input readonly type=text name="WordBox" id="wordbox"><BR>
+        <input type=button value="Generálás" onClick="PickRandomWord(document.Szo);" id="button">
+        </form>
+
+    <h1>Kivitelezés sorsoló</h1>
+
+    <form name="WordForm">
+        <script src="cselekves.js"></script>
+        <input readonly type=text name="WordCell" id="wordbox"><BR>
+        <input type=button value="Generálás" onClick="PickRandomFormat(document.WordForm);" id="button">
+        </form>
+</body>
+
+</html>
