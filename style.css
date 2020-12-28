@@ -47,6 +47,11 @@ body {
     background: #12b0ff;
   }
 
+  table {
+    width: 60%;
+    margin: auto;
+  }
+
   h3 {
     text-align: center;
     margin: 5% 0;*/
