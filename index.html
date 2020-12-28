@@ -43,10 +43,17 @@
     <input type="number" id="szam5" onchange="change()">
     <div id="feco"></div>-->
 
+    <hr>
+    <h1>PONTSZÁMOK</h1>
+    <hr>
+
+<table>
+    <tr>    
+
     <h3>Betti:</h3>
-    <input readonly id=demoInput type=number min=0 max=1000>
-    <button onclick="increment()">+</button>
-    <button onclick="decrement()">-</button>
+    <input readonly id=demoInput type=number min=0 max=1000 class="szam">
+    <button class="szamgomb" onclick="increment()">+</button>
+    <button class="szamgomb" onclick="decrement()">-</button>
     <script>
         function increment() {
             document.getElementById('demoInput').stepUp();
@@ -57,9 +64,9 @@
     </script>
 
     <h3>Anya:</h3>
-    <input readonly id=demoInput2 type=number min=0 max=1000>
-    <button onclick="increment2()">+</button>
-    <button onclick="decrement2()">-</button>
+    <input readonly id=demoInput2 type=number min=0 max=1000 class="szam">
+    <button class="szamgomb" onclick="increment2()">+</button>
+    <button class="szamgomb" onclick="decrement2()">-</button>
     <script>
         function increment2() {
             document.getElementById('demoInput2').stepUp();
@@ -70,9 +77,9 @@
     </script>
 
     <h3>Pisti:</h3>
-    <input readonly id=demoInput3 type=number min=0 max=1000>
-    <button onclick="increment3()">+</button>
-    <button onclick="decrement3()">-</button>
+    <input readonly id=demoInput3 type=number min=0 max=1000 class="szam">
+    <button class="szamgomb" onclick="increment3()">+</button>
+    <button class="szamgomb" onclick="decrement3()">-</button>
     <script>
         function increment3() {
             document.getElementById('demoInput3').stepUp();
@@ -83,9 +90,9 @@
     </script>
 
     <h3>Apa:</h3>
-    <input readonly id=demoInput4 type=number min=0 max=1000>
-    <button onclick="increment4()">+</button>
-    <button onclick="decrement4()">-</button>
+    <input readonly id=demoInput4 type=number min=0 max=1000 class="szam">
+    <button class="szamgomb" onclick="increment4()">+</button>
+    <button class="szamgomb" onclick="decrement4()">-</button>
     <script>
         function increment4() {
             document.getElementById('demoInput4').stepUp();
@@ -96,9 +103,9 @@
     </script>
 
     <h3>Fecó:</h3>
-    <input readonly id=demoInput5 type=number min=0 max=1000>
-    <button onclick="increment5()">+</button>
-    <button onclick="decrement5()">-</button>
+    <input readonly id=demoInput5 type=number min=0 max=1000 class="szam">
+    <button class="szamgomb" onclick="increment5()">+</button>
+    <button class="szamgomb" onclick="decrement5()">-</button>
     <script>
         function increment5() {
             document.getElementById('demoInput5').stepUp();
@@ -107,6 +114,9 @@
             document.getElementById('demoInput5').stepDown();
         }
     </script>
+
+    </tr>
+    </table>
 </body>
 
 </html>
