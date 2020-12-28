@@ -17,7 +17,7 @@
         <script src="js.js"></script>
         <input readonly type=text name="WordBox" id="wordbox"><BR>
         <input type=button value="Generálás" onClick="PickRandomWord(document.Szo);" id="button">
-        </form>
+    </form>
 
     <h1>Kivitelezés sorsoló</h1>
 
@@ -25,7 +25,88 @@
         <script src="cselekves.js"></script>
         <input readonly type=text name="WordCell" id="wordbox"><BR>
         <input type=button value="Generálás" onClick="PickRandomFormat(document.WordForm);" id="button">
-        </form>
+    </form>
+
+    <!--<input type="number" id="szam" onchange="change()">
+    <script src="pont.js"></script>
+    <div id="betti">Betti: </div>
+
+    <input type="number" id="szam2" onchange="change()">
+    <div id="pisti"></div>
+
+    <input type="number" id="szam3" onchange="change()">
+    <div id="anya"></div>
+
+    <input type="number" id="szam4" onchange="change()">
+    <div id="apa"></div>
+
+    <input type="number" id="szam5" onchange="change()">
+    <div id="feco"></div>-->
+
+    <h3>Betti:</h3>
+    <input readonly id=demoInput type=number min=0 max=1000>
+    <button onclick="increment()">+</button>
+    <button onclick="decrement()">-</button>
+    <script>
+        function increment() {
+            document.getElementById('demoInput').stepUp();
+        }
+        function decrement() {
+            document.getElementById('demoInput').stepDown();
+        }
+    </script>
+
+    <h3>Anya:</h3>
+    <input readonly id=demoInput2 type=number min=0 max=1000>
+    <button onclick="increment2()">+</button>
+    <button onclick="decrement2()">-</button>
+    <script>
+        function increment2() {
+            document.getElementById('demoInput2').stepUp();
+        }
+        function decrement2() {
+            document.getElementById('demoInput2').stepDown();
+        }
+    </script>
+
+    <h3>Pisti:</h3>
+    <input readonly id=demoInput3 type=number min=0 max=1000>
+    <button onclick="increment3()">+</button>
+    <button onclick="decrement3()">-</button>
+    <script>
+        function increment3() {
+            document.getElementById('demoInput3').stepUp();
+        }
+        function decrement3() {
+            document.getElementById('demoInput3').stepDown();
+        }
+    </script>
+
+    <h3>Apa:</h3>
+    <input readonly id=demoInput4 type=number min=0 max=1000>
+    <button onclick="increment4()">+</button>
+    <button onclick="decrement4()">-</button>
+    <script>
+        function increment4() {
+            document.getElementById('demoInput4').stepUp();
+        }
+        function decrement4() {
+            document.getElementById('demoInput4').stepDown();
+        }
+    </script>
+
+    <h3>Fecó:</h3>
+    <input readonly id=demoInput5 type=number min=0 max=1000>
+    <button onclick="increment5()">+</button>
+    <button onclick="decrement5()">-</button>
+    <script>
+        function increment5() {
+            document.getElementById('demoInput5').stepUp();
+        }
+        function decrement5() {
+            document.getElementById('demoInput5').stepDown();
+        }
+    </script>
 </body>
 
 </html>
